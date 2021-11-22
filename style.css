@@ -1,3 +1,32 @@
 body {
     background-color: #092447;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.opening-section{
+    vertical-align: middle;
+    min-height: 450px;
+}
+
+.tasks-section {
+    background-color: crimson;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    width: auto;
+    min-height: 450px;
+}
+
+button {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    background-color: #092447;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    font-size: large;
 }
