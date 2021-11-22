@@ -6,6 +6,15 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
 .opening-section{
     vertical-align: middle;
     min-height: 450px;
@@ -29,4 +38,23 @@ button {
     width: 200px;
     height: 200px;
     font-size: large;
+}
+
+.about-me-section {
+    width: auto;
+}
+
+.am1 {
+    width: 50%;
+    float: left;
+}
+
+.am2 {
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
 }
