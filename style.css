@@ -68,3 +68,7 @@ footer {
 .logo {
     float: unset;
 }
+
+.back-button {
+    text-align: right;;
+}
