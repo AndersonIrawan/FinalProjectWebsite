@@ -16,20 +16,20 @@ h2 {
 }
 
 .opening-section{
+    background-color: crimson;
     vertical-align: middle;
-    min-height: 450px;
-    padding: 50px;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
-.tasks-section {
+.tasks-section1 {
     background-color: crimson;
-    align-items: center;
-    align-content: center;
-    padding: 50px;
-    width: auto;
-    min-height: 450px;
 }
+
+.task-section2 {
+    padding: 100px;
+}
+
 
 button {
     color: white;
@@ -41,6 +41,7 @@ button {
     width: 200px;
     height: 70px;
     font-size: large;
+    flex-wrap: wrap;
 }
 
 button.launch:hover{
@@ -64,14 +65,49 @@ button.launch:hover{
 
 footer {
     text-align: center;
+    padding: 50px;
+    background-color: crimson;
 }
 .logo {
     float: unset;
+    padding-bottom: 20px;
+    font-size: 30px;
 }
 
 .back-button {
     text-align: right;
     position: fixed;
-    bottom: 100px;
-    right: 100px;
+    bottom: 130px;
+    right: 50px;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.media-container .object-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.object-container {
+    text-indent: 50px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.report {
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-justify: distribute;
+}
+
+h3 {
+    font-size: 50px;
 }
