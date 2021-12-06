@@ -70,5 +70,8 @@ footer {
 }
 
 .back-button {
-    text-align: right;;
+    text-align: right;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
 }
