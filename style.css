@@ -18,6 +18,8 @@ h2 {
 .opening-section{
     vertical-align: middle;
     min-height: 450px;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 .tasks-section {
@@ -33,11 +35,16 @@ button {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
-    background-color: #092447;
-    border-radius: 50%;
+    background-color: crimson;
+    border: none;
+    border-radius: 35px;
     width: 200px;
-    height: 200px;
+    height: 70px;
     font-size: large;
+}
+
+button.launch:hover{
+    background-color: darkblue;
 }
 
 .about-me-section {
@@ -57,4 +64,7 @@ button {
 
 footer {
     text-align: center;
+}
+.logo {
+    float: unset;
 }
