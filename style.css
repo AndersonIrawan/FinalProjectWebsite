@@ -139,6 +139,11 @@ h3 {
 .task {
     align-items: center;
 }
-myDIV {
-    width: 100%;
+
+.flex-text {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
