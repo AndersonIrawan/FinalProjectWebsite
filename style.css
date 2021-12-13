@@ -53,8 +53,7 @@ button {
     height: 70px;
     font-size: large;
     flex-wrap: wrap;
-
-    
+    cursor: pointer;
 }
 
 
@@ -121,7 +120,6 @@ footer {
     text-align: justify;
     text-justify: inter-word;
     flex-wrap: wrap;
-    width: 50%;
 }
 
 .report {
@@ -147,6 +145,7 @@ h3 {
 
 .hover-box {
     position: relative;
+    cursor: crosshair;
 }
 
 .hide {
@@ -171,4 +170,8 @@ h3 {
 .myDIV {
     position: relative;
     text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
 }
