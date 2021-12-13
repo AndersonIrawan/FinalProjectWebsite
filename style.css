@@ -16,8 +16,8 @@ h2 {
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     object-fit: contain;
 }
 
@@ -53,7 +53,10 @@ button {
     height: 70px;
     font-size: large;
     flex-wrap: wrap;
+
+    
 }
+
 
 .white-button {
     color: crimson;
@@ -83,6 +86,7 @@ footer {
     text-align: center;
     padding: 50px;
     background-color: crimson;
+    bottom: 0;
 }
 .logo {
     float: unset;
@@ -101,8 +105,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 50px;
 }
 
@@ -113,10 +117,11 @@ footer {
 }
 
 .object-container {
-    text-indent: 50px;
-    font-size: 18px;
+    font-size: 25px;
     text-align: justify;
     text-justify: inter-word;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 .report {
@@ -140,10 +145,30 @@ h3 {
     align-items: center;
 }
 
-.flex-text {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+.hover-box {
+    position: relative;
+}
+
+.hide {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 300px;
+    text-align: justify;
+  }
+  
+.myDIV:hover + .hide {
+    display: block;
+    color: white;
+  }
+
+.myDIV:hover {
+    opacity: 0.3;
+}
+
+.myDIV {
+    position: relative;
+    text-align: center;
 }
