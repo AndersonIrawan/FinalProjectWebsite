@@ -129,6 +129,7 @@ footer {
     padding-left: 200px;
     padding-right: 200px;
     text-justify: distribute;
+    text-align: justify;
 }
 
 h3 {
