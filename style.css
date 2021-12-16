@@ -107,8 +107,8 @@ footer {
     justify-content: flex-start;
     flex-wrap: wrap;
     display: flexbox;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 50px;
     vertical-align: middle;
     align-items: center;
@@ -130,8 +130,8 @@ footer {
 
 .report {
     padding-bottom: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     text-justify: distribute;
     text-align: justify;
 }
@@ -156,13 +156,14 @@ h3 {
 }
 
 .hide {
+
     display: none;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 200px;
-    text-align: justify;
+    padding: 7.5%;
+    text-align: left;
   }
   
 .myDIV:hover + .hide {
@@ -184,7 +185,7 @@ h3 {
 }
 
 .posterimg {
-    width: 700px;
+    width: 400px;
 }
 
 .link {
@@ -193,5 +194,6 @@ h3 {
 }
 
 .carp-text {
+    font-size: 80%;
     padding: 20px 0;
 }
