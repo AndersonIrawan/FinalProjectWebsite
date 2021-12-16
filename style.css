@@ -178,6 +178,7 @@ h3 {
 .myDIV {
     position: relative;
     text-align: center;
+    width: 80%;
 }
 
 .pointer {
@@ -185,7 +186,8 @@ h3 {
 }
 
 .posterimg {
-    width: 400px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 .link {
