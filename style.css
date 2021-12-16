@@ -20,7 +20,7 @@ img {
 }
 
 .image {
-    flex-shrink: 0;
+    width: 300px;
 }
 
 .opening-section{
